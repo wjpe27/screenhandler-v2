@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "screen handler", "screen handler.njsproj", "{2D7C6977-D4A8-46AF-8145-B7CC32B1889C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7C6977-D4A8-46AF-8145-B7CC32B1889C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7C6977-D4A8-46AF-8145-B7CC32B1889C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7C6977-D4A8-46AF-8145-B7CC32B1889C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7C6977-D4A8-46AF-8145-B7CC32B1889C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4E0AEA6-D235-443D-8EE2-E3BBBB98BA39}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,110 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>screen handler</Name>
+    <RootNamespace>screen handler</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2d7c6977-d4a8-46af-8145-b7cc32b1889c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="console handler js\.gitignore" />
+    <Content Include="console handler js\.git\COMMIT_EDITMSG" />
+    <Content Include="console handler js\.git\config" />
+    <Content Include="console handler js\.git\description" />
+    <Content Include="console handler js\.git\HEAD" />
+    <Content Include="console handler js\.git\hooks\applypatch-msg.sample" />
+    <Content Include="console handler js\.git\hooks\commit-msg.sample" />
+    <Content Include="console handler js\.git\hooks\fsmonitor-watchman.sample" />
+    <Content Include="console handler js\.git\hooks\post-update.sample" />
+    <Content Include="console handler js\.git\hooks\pre-applypatch.sample" />
+    <Content Include="console handler js\.git\hooks\pre-commit.sample" />
+    <Content Include="console handler js\.git\hooks\pre-merge-commit.sample" />
+    <Content Include="console handler js\.git\hooks\pre-push.sample" />
+    <Content Include="console handler js\.git\hooks\pre-rebase.sample" />
+    <Content Include="console handler js\.git\hooks\pre-receive.sample" />
+    <Content Include="console handler js\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="console handler js\.git\hooks\push-to-checkout.sample" />
+    <Content Include="console handler js\.git\hooks\update.sample" />
+    <Content Include="console handler js\.git\index" />
+    <Content Include="console handler js\.git\info\exclude" />
+    <Content Include="console handler js\.git\logs\HEAD" />
+    <Content Include="console handler js\.git\logs\refs\heads\main" />
+    <Content Include="console handler js\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="console handler js\.git\ms-persist.xml" />
+    <Content Include="console handler js\.git\objects\46\fa681460c71978b9cb4d4ce056c69024a17910" />
+    <Content Include="console handler js\.git\objects\53\1d832267c35f5d9cdefb54df0901e9251ce22d" />
+    <Content Include="console handler js\.git\objects\ad\3e90cffb416e2615cf9b642e9d26cdec8cb0be" />
+    <Content Include="console handler js\.git\objects\pack\pack-d76af2fecc8cf3e0ab2d23e8b25e4680e303960d.idx" />
+    <Content Include="console handler js\.git\objects\pack\pack-d76af2fecc8cf3e0ab2d23e8b25e4680e303960d.pack" />
+    <Content Include="console handler js\.git\packed-refs" />
+    <Content Include="console handler js\.git\refs\heads\main" />
+    <Content Include="console handler js\.git\refs\remotes\origin\HEAD" />
+    <Content Include="console handler js\.vs\console handler js\config\applicationhost.config" />
+    <Content Include="console handler js\.vs\console handler js\FileContentIndex\87c2ee9a-9ab3-4980-a368-fdc3f8fbcf4e.vsidx" />
+    <Content Include="console handler js\.vs\console handler js\FileContentIndex\read.lock" />
+    <Content Include="console handler js\.vs\console handler js\v17\.wsuo" />
+    <Content Include="console handler js\.vs\ProjectSettings.json" />
+    <Content Include="console handler js\.vs\slnx.sqlite" />
+    <Content Include="console handler js\.vs\VSWorkspaceState.json" />
+    <Content Include="console handler js\app.js" />
+    <Content Include="console handler js\Details\useraccount.json" />
+    <Content Include="console handler js\package-lock.json" />
+    <Content Include="console handler js\package.json" />
+    <Content Include="console handler js\README.md" />
+    <Content Include="console handler js\Routes\account.js" />
+    <Content Include="console handler js\Routes\Route.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="console handler js\" />
+    <Folder Include="console handler js\.git\" />
+    <Folder Include="console handler js\.git\hooks\" />
+    <Folder Include="console handler js\.git\info\" />
+    <Folder Include="console handler js\.git\logs\" />
+    <Folder Include="console handler js\.git\logs\refs\" />
+    <Folder Include="console handler js\.git\logs\refs\heads\" />
+    <Folder Include="console handler js\.git\logs\refs\remotes\" />
+    <Folder Include="console handler js\.git\logs\refs\remotes\origin\" />
+    <Folder Include="console handler js\.git\objects\" />
+    <Folder Include="console handler js\.git\objects\46\" />
+    <Folder Include="console handler js\.git\objects\53\" />
+    <Folder Include="console handler js\.git\objects\ad\" />
+    <Folder Include="console handler js\.git\objects\info\" />
+    <Folder Include="console handler js\.git\objects\pack\" />
+    <Folder Include="console handler js\.git\refs\" />
+    <Folder Include="console handler js\.git\refs\heads\" />
+    <Folder Include="console handler js\.git\refs\remotes\" />
+    <Folder Include="console handler js\.git\refs\remotes\origin\" />
+    <Folder Include="console handler js\.git\refs\tags\" />
+    <Folder Include="console handler js\.vs\" />
+    <Folder Include="console handler js\.vs\console handler js\" />
+    <Folder Include="console handler js\.vs\console handler js\config\" />
+    <Folder Include="console handler js\.vs\console handler js\FileContentIndex\" />
+    <Folder Include="console handler js\.vs\console handler js\FileContentIndex\merges\" />
+    <Folder Include="console handler js\.vs\console handler js\v17\" />
+    <Folder Include="console handler js\Details\" />
+    <Folder Include="console handler js\Routes\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+</Project>
